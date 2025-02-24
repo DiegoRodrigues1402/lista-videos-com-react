@@ -1,0 +1,27 @@
+.slick-prev:before,
+.slick-next:before {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+    .slick-prev, 
+.slick-next {
+    z-index: 10; /* Coloca as setas acima da imagem */
+    width: 40px;  /* Define o tamanho do botão */
+    height: 40px;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    font-size: 35px; /* Ajusta o tamanho do ícone da seta */
+    color: rgb(255, 254, 254);    /* Define a cor da seta */
+}
+
+.slick-prev {
+    left: 10px; /* Aproxima a seta da borda esquerda */
+}
+
+.slick-next {
+    right: 10px; /* Aproxima a seta da borda direita */
+}
+}

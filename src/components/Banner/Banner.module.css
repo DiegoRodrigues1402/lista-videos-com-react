@@ -1,0 +1,15 @@
+.banner{
+    width: 100vw;
+    height: 347px;
+    /* background-image: url('../../../public/imagens/banner-home.png'); */
+    background-repeat: no-repeat;/*Não repetir a imagem*/
+    background-size: cover;/*serve para cobrir toda area*/
+    background-position: center;/*centralizar imagem*/
+    margin-top: 68px;
+    
+}
+@media screen and (max-width: 480px) {
+    .banner{
+        height:100px;
+    }
+ }

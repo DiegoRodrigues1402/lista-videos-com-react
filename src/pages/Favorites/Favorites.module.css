@@ -1,0 +1,10 @@
+.favoritos {
+    padding-top: 85px;
+    
+}
+@media screen and (max-width:480px){
+    .favoritos h2{
+        font-size: 25px;
+       
+    }
+}

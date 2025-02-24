@@ -1,18 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Watch from "./pages/Watch";
 import PageNotFound from "./pages/PageNotFound";
 import Search from "./pages/Search";
-import Favorites from "../src/pages/Favorites"
+import Favorites from "./pages/Favorites";
 import FavoritesProvider from "./contexts/Favoritos";
 import VideoCadastre from "./pages/VideoCadastre";
 
-
-
 function MainRoutes() {
     return (
-        <BrowserRouter>
-                <FavoritesProvider>
+        <Router>
+            <FavoritesProvider>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Watch/:id" element={<Watch />} />
@@ -21,10 +19,9 @@ function MainRoutes() {
                     <Route path="/Favorites" element={<Favorites />} />
                     <Route path="/Cadastres" element={<VideoCadastre />} />
                 </Routes>
-                </FavoritesProvider>
-                
-            
-        </BrowserRouter>
+            </FavoritesProvider>
+        </Router>
     );
 }
+
 export default MainRoutes;

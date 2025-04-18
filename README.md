@@ -1,8 +1,14 @@
-# React + Vite
+Lista de Vídeos com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples e interativo desenvolvido com React, onde é possível visualizar, adicionar e remover vídeos de uma lista. Cada vídeo é exibido com um título e uma miniatura, e o usuário pode clicar para assistir ao vídeo em um player integrado.
 
-Currently, two official plugins are available:
+O projeto permite que os vídeos sejam dinamicamente gerenciados com o uso de React Hooks como useState, facilitando a manipulação do estado da lista. Além disso, a interface é totalmente reativa, atualizando-se conforme o usuário adiciona ou remove vídeos.
+Funcionalidades:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Exibição de uma lista de vídeos com título e miniatura.
+
+    Capacidade de adicionar novos vídeos à lista.
+
+    Reprodução do vídeo em um player integrado.
+
+    Remoção de vídeos da lista.
